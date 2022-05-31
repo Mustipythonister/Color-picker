@@ -96,3 +96,26 @@ body{
 	box-shadow:0 0 20px 10px rgba(0,0,0,.15);
 
 }
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 70px;
+
+	height: 40px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+	border-radius: 5px;
+	box-shadow:0 5px 20px 2px rgba(0,0,0,.20);
+	cursor:pointer;
+	transition: 0.2s;
+}
+input[type="color"]::-webkit-color-swatch:hover{
+	border:0.7px solid black;
+	transition: 0.5s;
+	box-shadow:0 2px 30px 3px rgba(0,0,0,.20);
+}

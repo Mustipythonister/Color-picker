@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Color picker</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<script defer src="script.js"></script>
+</head>
+<body onload="l()">
+	<div class="box">
+		<div id="c" class="content">
+			<h1 style="font-family: arial;">Color picker</h1>
+			<p>Free online and open source color picker</p>
+			<input class="color" id="color" type="color">
+			<br><br>
+			<button id="btn" onclick="save()" class="button is-warning">Save</button>
+			<br><br>
+			<p id="display"></p>
+		</div>
+
+	</div>
+</body>
+
+</html>

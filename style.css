@@ -185,6 +185,8 @@ input[type="color"]::-webkit-color-swatch:hover{
 	width:100%;
 	margin:0 auto;
 	transition:0.5s;
+	height:700px;
+	padding-bottom:20px;
 
 }
 .box .content{
@@ -216,6 +218,7 @@ input[type="color"]::-webkit-color-swatch:hover{
 
 }
 
+
 /* Track */
 ::-webkit-scrollbar-track {
   background:#7d7d7d;
@@ -229,4 +232,55 @@ input[type="color"]::-webkit-color-swatch:hover{
 	background:#292929;
 	border-radius:20px;
 
+}
+
+.small-box{
+	width:40px;
+	height:40px;
+	border-radius:5px;
+	display:inline-block;
+	position:relative;
+	left:-20px;
+	transition:0.4s;
+
+
+}
+.small-box:hover{
+	transition:0.5s;
+	cursor:pointer;
+	box-shadow:0 5px 30px 5px rgba(0,0,0,.15);
+}
+ul{
+	margin:0;
+	padding:5px;
+}
+
+
+#red{
+	background:#ec1313;
+	transition:0.5s;
+}
+#orange{
+	background:#ec6a13;
+	transition:0.5s;
+}
+#yel{
+	background:#ffdd00;
+	transition:0.5s;
+}
+#gre{
+	background:#5fe119;
+	transition:0.5s;
+}
+#blue{
+	background:#020ae3;
+	transition:0.5s;
+}
+#vi{
+	background:#b72cdd;
+	transition:0.5s;
+}
+#vio{
+	background:#9800c2;
+	transition:0.5s;
 }

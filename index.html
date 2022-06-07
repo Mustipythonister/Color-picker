@@ -7,20 +7,74 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 	<script defer src="script.js"></script>
+	<link rel="icon" href="color.svg">
 </head>
-<body onload="l()">
+<body onload="load()">
+	<div class="container">
 	<div class="box">
 		<div id="c" class="content">
-			<h1 style="font-family: arial;">Color picker</h1>
-			<p>Free online and open source color picker</p>
+
+			<h1 id="title" style="font-family: arial;color:#383838;">Color picker <span id="di"></span></h1>
+			<p id="par">Free online and open source color picker</p>
 			<input class="color" id="color" type="color">
 			<br><br>
-			<button id="btn" onclick="save()" class="button is-warning">Save</button>
+			<button class="button"  onclick="save()">Save color</button>
 			<br><br>
 			<p id="display"></p>
+
+			<div id="check" class="saved"></div>
 		</div>
 
 	</div>
+</div>
+
+	<br><br>
+	<div class="container" id="more">
+		<div id="more2" class="box">
+			<h1 class="title">I built this tool</h1>
+			<img id="img" src="color.svg">
+			<br>
+			<p>for web designers !</p>
+			<p>Photo editors !</p>
+			<h3 style="font-size:20px;">And a lot of content creators</h3>
+		</div>
+	</div>
+	<br><br>
+<div class="container" id="more">
+		<div id="more2" class="box">
+			<h1 class="title">Who</h1>
+			<p>Mustapha</p>
+			<p>Where : Algeria, Oran</p>
+			<h3 style="font-size:20px;">How old is he? <strong><i>14</i> years old</strong></h3>
+		</div>
+	</div>
+	<br><br>
+	<div class="container" id="more">
+		<div style="height:350px;" id="more2" class="box">
+			<h1 class="title">Projects</h1>
+			<p style="font-size:20px;">I have a lot of <strong>projects</strong></p>
+			<p>Your paper : Rich text editor</p>
+			<p>PlayJs online : Run js on your playground, and test your amazing ideas</p>
+			<p>Password Generator : Generate Complex passwords for free</p>
+			<p style="font-size:20px;margin-top:5px;"><strong>IMPORTANT</strong></p>
+			<p style="margin-top:5px;">Password generator is a really powerful tool, and its impossible to crack your passwords</p>
+			<a href="" class="button is-primary"><strong>Github</strong></a>
+			<a href="" class="button is-danger">Instagram</a>
+		</div>
+	</div>
+<br><br>
+	<div class="container" id="more">
+		<div style="height:420px;" id="more2" class="box">
+			<h1 class="title">Contact me</h1>
+			<form method="POST" action="https://getform.io/f/3cf98882-3b5a-4939-ba7d-6ae7fe6c3095">
+				<input class="input" placeholder="name">
+				<br><br>
+				<textarea class="input" placeholder="comment" style="resize:none;height:200px;"></textarea>
+				<input type="submit" class="button is-primary">
+			</form>
+		</div>
+	</div>
+
 </body>
 
 </html>

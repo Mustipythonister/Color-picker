@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 	<script defer src="script.js"></script>
+	<script defer src="color.js"></script>
 	<link rel="icon" href="color.svg">
 </head>
 <body onload="load()">
@@ -14,11 +15,21 @@
 	<div class="box">
 		<div id="c" class="content">
 
-			<h1 id="title" style="font-family: arial;color:#383838;">Color picker <span id="di"></span></h1>
+			<h1 class="title" style="font-family: arial;color:#383838;">Color picker <span class="title" id="di"></span></h1>
 			<p id="par">Free online and open source color picker</p>
 			<input class="color" id="color" type="color">
 			<br><br>
 			<button class="button"  onclick="save()">Save color</button>
+			<br><br>
+			<ul>
+				<li onclick="c('red')" id="red" class="small-box"></li>
+				<li onclick="c('orange')" id="orange" class="small-box"></li>
+				<li onclick="c('yel')" id="yel" class="small-box"></li>
+				<li onclick="c('gre')" id="gre" class="small-box"></li>
+				<li onclick="c('blue')" id="blue" class="small-box"></li>
+				<li onclick="c('vi')" id="vi" class="small-box"></li>
+				<li onclick="c('vio')" id="vio" class="small-box"></li>
+			</ul>
 			<br><br>
 			<p id="display"></p>
 
